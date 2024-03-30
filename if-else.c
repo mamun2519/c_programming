@@ -2,16 +2,24 @@
 
 int main()
 {
-      int n;
-      printf("Enter Number--");
-      scanf("%d", &n);
-      if (n % 2 == 0)
+      int year;
+      printf("Enter a year: ");
+      scanf("%d", &year);
+      if (year % 400 == 0)
       {
-            printf("This Is Even Number");
+            printf("%d this is leap year", year);
+      }
+      else if (year % 100 == 0)
+      {
+            printf("%d this is leap year", year);
+      }
+      else if (year % 4 == 0)
+      {
+            printf("%d this is leap year", year);
       }
       else
       {
-            printf("This Is odd Number");
+            printf("%d this is not leap year", year);
       }
       return 0;
 }
