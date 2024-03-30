@@ -2,24 +2,16 @@
 
 int main()
 {
-      int year;
-      printf("Enter a year: ");
-      scanf("%d", &year);
-      if (year % 400 == 0)
+      int number;
+      printf("Enter Your Number");
+      scanf("%d", &number);
+      if (number > 99 && number < 1000)
       {
-            printf("%d this is leap year", year);
-      }
-      else if (year % 100 == 0)
-      {
-            printf("%d this is leap year", year);
-      }
-      else if (year % 4 == 0)
-      {
-            printf("%d this is leap year", year);
+            printf("This Is three degit number");
       }
       else
       {
-            printf("%d this is not leap year", year);
+            printf("This Is not three degit number");
       }
       return 0;
 }
