@@ -2,16 +2,23 @@
 
 int main()
 {
-      int number;
-      printf("Enter Your Number");
-      scanf("%d", &number);
-      if (number > 99 && number < 1000)
+      int ram, shyam, ajay;
+      printf(" Enter Ram Age");
+      scanf("%d", &ram);
+      printf(" Enter shyam Age");
+      scanf("%d", &shyam);
+      printf(" Enter shyam ajay");
+      scanf("%d", &ajay);
+      if (ram < shyam && ram < ajay)
       {
-            printf("This Is three degit number");
+            printf("%d Ram Is Yougester", ram);
+      }
+      else if (shyam < ram && shyam < ajay)
+      {
+            printf("%d shyam Is Yougester", ajay);
       }
       else
       {
-            printf("This Is not three degit number");
+            printf("%d shyam Is Yougester", shyam);
       }
-      return 0;
 }
