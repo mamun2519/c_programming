@@ -2,12 +2,17 @@
 //
 int main()
 {
-      for (int i = 0; i < 100; i++)
+      int number;
+      printf("Enter Number: ");
+      scanf("%d", &number);
+      for (int i = 2; i <= number - 1; i++)
       {
-            if (i % 2 == 1)
+            if (number % i == 0)
             {
-                  printf(" %d", i);
+                  printf("This number is copmosite");
+                  break;
             }
       }
+
       return 0;
 }
