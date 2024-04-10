@@ -1,2 +1,1 @@
-  char name = "m";
-        printf("%c", name);
+1
