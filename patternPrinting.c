@@ -1,19 +1,13 @@
-
 #include <stdio.h>
 
 int main()
 {
-      int n;
-      printf("Enter Row: ");
-      scanf("%d", &n);
 
-      for (int i = 1; i <= n; i++)
+      int a = 0;
+      while (a < 7)
       {
-            for (int j = 1; j <= i; j++)
-            {
-                  printf("%d", j);
-            }
-            printf("\n");
+            printf("%d\n", a);
+            a++;
       }
-      return 0;
+      // testing ssh and github
 }
